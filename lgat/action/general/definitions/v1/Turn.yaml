@@ -1,0 +1,54 @@
+name: Turn
+fn_frame: Cause_to_move_in_place
+vn_frame: turn-26.6.1
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - turn.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Theme
+    fn_roles:
+      - Theme
+    wn_nodes:
+      - instrumentality.n.03
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You turned the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - with
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: true
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Instrument
+    fn_roles:
+      - Instrument
+    wn_nodes:
+      - tool.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You turned it with
+    is_nullable: true
+    is_special_role: false

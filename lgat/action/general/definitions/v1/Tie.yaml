@@ -1,0 +1,54 @@
+name: Tie
+fn_frame: Rope_manipulation
+vn_frame: mix-22.1-2
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - tie.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Theme
+    fn_roles:
+      - Rope
+    wn_nodes:
+      - rope.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You tied the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - to
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Destination
+    fn_roles:
+      - Locus
+    wn_nodes:
+      - object.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You tied it with
+    is_nullable: false
+    is_special_role: false

@@ -1,0 +1,55 @@
+name: Read
+fn_frame: Reading_perception
+vn_frame: learn-14
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - read.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Topic
+    fn_roles:
+      - Text
+    wn_nodes:
+      - verbal_creation.n.01
+      - written_communication.n.01
+      - paper.n.01
+      - record.n.01
+      - symbol.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You read the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true

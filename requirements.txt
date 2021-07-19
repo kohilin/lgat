@@ -1,0 +1,11 @@
+torch
+pfrl
+nltk
+more-itertools
+pandas
+tqdm
+numpy
+transformers
+tensorboard
+jericho
+attrdict

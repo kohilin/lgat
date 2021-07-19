@@ -1,0 +1,52 @@
+name: Cut
+fn_frame: Cutting
+vn_frame: cut-21.1-1
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - cut.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Patient
+    fn_roles:
+      - Item
+    wn_nodes:
+      - food.n.01
+      - hair.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You cut the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true

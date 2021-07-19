@@ -1,0 +1,26 @@
+name: v1
+slot_nums: 4
+slot_names:
+  - v
+  - o1
+  - p
+  - o2
+roles:
+  - Agent
+  - Attribute
+  - Beneficiary
+  - Cause
+  - Destination
+  - Experiencer
+  - Location
+  - Instrument
+  - Patient
+  - Recipient
+  - Result
+  - Source
+  - Stimulus
+  - Theme
+  - Topic
+  - Predicate
+  - Preposition
+  - 'Null'

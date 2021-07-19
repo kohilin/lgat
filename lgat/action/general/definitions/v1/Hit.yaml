@@ -1,0 +1,54 @@
+name: Hit
+fn_frame: Cause_harm
+vn_frame: hit-18.1-1
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - hit.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Patient
+    fn_roles:
+      - Victim
+    wn_nodes:
+      - physical_entity.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You hit the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - with
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Instrument
+    fn_roles:
+      - Instrument
+    wn_nodes:
+      - hand_tool.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You hit it with
+    is_nullable: false
+    is_special_role: false

@@ -1,0 +1,52 @@
+name: Ride
+fn_frame: Ride_vehicle
+vn_frame: null
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - ride.v.01
+      - enter.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Topic
+    fn_roles:
+      - Vehicle
+    wn_nodes:
+      - vehicle.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You rode the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true

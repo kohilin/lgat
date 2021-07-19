@@ -1,0 +1,54 @@
+name: Show
+fn_frame: Cause_to_perceive
+vn_frame: indicate-78-1
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - show.v.04
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Topic
+    fn_roles:
+      - Phenomenon
+    wn_nodes:
+      - physical_entity.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You showed the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - to
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Experiencer
+    fn_roles:
+      - Perceiver
+    wn_nodes:
+      - people.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You showed it to
+    is_nullable: false
+    is_special_role: false

@@ -1,0 +1,52 @@
+name: Talk
+fn_frame: Chatting
+vn_frame: talk-37.5
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - talk.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - to
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Patient
+    fn_roles: null
+    wn_nodes:
+      - people.n.01
+      - person.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: false

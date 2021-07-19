@@ -1,0 +1,55 @@
+name: Open
+fn_frame: Closure
+vn_frame: null
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - open.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Theme
+    fn_roles:
+      - Container_portal
+    wn_nodes:
+      - window.n.01
+      - door.n.01
+      - container.n.01
+      - covering.n.02
+      - room.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You opened the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true

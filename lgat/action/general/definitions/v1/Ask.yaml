@@ -1,0 +1,57 @@
+name: Ask
+fn_frame: Questioning
+vn_frame: inquire-37.1.2
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - ask.v.05
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Patient
+    fn_roles:
+      - Addressee
+    wn_nodes:
+      - people.n.01
+      - person.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - about
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: true
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Theme
+    fn_roles:
+      - Topic
+    wn_nodes:
+      - object.n.01
+      - people.n.01
+      - person.n.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: true
+    is_special_role: false

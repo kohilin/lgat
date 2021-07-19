@@ -1,0 +1,51 @@
+name: Sell
+fn_frame: Commerce_sell
+vn_frame: give-13.1-1
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - sell.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Theme
+    fn_roles:
+      - Goods
+    wn_nodes:
+      - object.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You sold the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: null
+    vn_role: 'Null'
+    fn_roles: null
+    wn_nodes: null
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true

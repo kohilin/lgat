@@ -1,0 +1,52 @@
+# values must be specified
+name: #
+fn_frame: #
+vn_frame: #
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes: #
+    words: null
+    enforce_words: null
+    is_nullable: false
+    require_observed: false
+    lm_suffix: null
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role:  #
+    fn_roles: #
+    wn_nodes:
+      - #
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - #
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: true
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role:  #
+    fn_roles: #
+    wn_nodes:
+      - #
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: false

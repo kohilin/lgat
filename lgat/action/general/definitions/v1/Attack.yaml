@@ -1,0 +1,57 @@
+name: Attack
+fn_frame: Attack
+vn_frame: null
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - attack.v.01
+      - kill.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Patient
+    fn_roles:
+      - Assailant
+    wn_nodes:
+      - monster.n.01
+      - adversary.n.01
+      - bad_person.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You attacked the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - with
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Instrument
+    fn_roles:
+      - Weapon
+    wn_nodes:
+      - weapon.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You attacked him with
+    is_nullable: false
+    is_special_role: false

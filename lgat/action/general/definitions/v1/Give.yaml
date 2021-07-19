@@ -1,0 +1,55 @@
+name: Give
+fn_frame: Giving
+vn_frame: give-13.1
+slots:
+  v:
+    pos: v
+    vn_role: Predicate
+    fn_roles: null
+    wn_nodes:
+      - give.v.01
+    words: null
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o1:
+    pos: n
+    vn_role: Theme
+    fn_roles:
+      - Theme
+    wn_nodes:
+      - object.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You gave the
+    is_nullable: false
+    is_special_role: false
+  p:
+    pos: p
+    vn_role: Preposition
+    fn_roles: null
+    wn_nodes: null
+    words:
+      - to
+    enforce_words: null
+    require_observed: false
+    lm_suffix: null
+    is_nullable: false
+    is_special_role: true
+  o2:
+    pos: n
+    vn_role: Recipient
+    fn_roles:
+      - Recipient
+    wn_nodes:
+      - people.n.01
+      - person.n.01
+    words: null
+    enforce_words: null
+    require_observed: true
+    lm_suffix: You gave it to
+    is_nullable: false
+    is_special_role: false
